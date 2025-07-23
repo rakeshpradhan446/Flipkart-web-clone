@@ -1,0 +1,99 @@
+*{
+    margin:0p;
+    padding:0;
+    font-family:arial;
+    box-sizing:border-box;
+}  
+     body{
+    display:flex;
+    
+} 
+.img{
+    height:100vh;
+    background-image:url(" https://wallpapers.com/images/featured/mountains-background-kfpok0pdo9yd6ha7.jpg ");
+    background-size:cover;
+    width: 100vw;
+   
+}
+.leftbox{
+    height:75vh;
+    width:20vw;
+    border:2px solid black;
+    background-color:white;
+    /* display:flex;
+    margin:20px; */
+    border-radius:40px;
+    margin-left: -350px;
+    /* transition:0.5s ease;  */
+
+} 
+
+
+
+
+    
+
+
+
+  
+.slide{
+    /* height:100%; */
+     /* width:75vw;  */
+    /* padding-bottom:30px; */
+}
+ .slide h1{
+    color:#8000ff;
+    font-weight:800;
+      /* padding-left:10px;  */
+    /* text-align:right; */
+     /* margin-right:56px;; */
+     margin-left:25px;
+
+}
+
+
+
+
+ .slide ul li a{
+    color:#011a41;
+    font-weight:700;
+    display:block;
+    text-transform:capitalize;
+    text-decoration:none;
+    /* transition:0.2s easeout; */
+    margin-bottom:40px; 
+
+}
+.slide ul li a i{
+     width:40px;
+     text-align:center;
+
+}
+  #check{
+    opacity: 0;
+ }  
+
+#check:checked ~ .leftbox{
+   margin-left:0px;
+
+}
+   .img label i{
+    font-size:40px;
+    margin:20px 0px 0px 20px;
+   }
+  .slide  ul li :hover{
+    height:50px;
+    
+    
+    
+ 
+    background-color:aquamarine;
+    
+   }
+   #onehead{
+
+    text-align:center;
+    font-size:50px; 
+    margin-top:-20px; 
+   }
+   
